@@ -121,4 +121,5 @@ string 'world.particle.heart' - Партикл сердечка;
 string 'trigger.player.chat' - Когда игрок вводит что-то в чат, в массиве $optional передается сообщение message;
 string 'trigger.npc.hit' - Когда игрок бьет по NPC, в массиве $optional передается айди NPC id;
 string 'trigger.delay.success' - Вызывается когда таск (APIDelay) закончен;
+string 'trigger.npc.passive' - Вызывается когда NPC доходит до координат, передается в массив ($optional) айди NPC id;
 ```

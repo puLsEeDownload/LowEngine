@@ -59,6 +59,7 @@ public static function moveTo(int $id, PositionFormat $pos, float $speed): void 
 public static function giveItemInHand(int $id, ItemFormat $itemFormat): void - Дает в руки NPC предмет;
 public static function lookAt(int $id, NPCEntity $entity): void - Заставляет NPC смотреть на другого NPC;
 public static function lookAtPlayer(int $id): void - Заставляет NPC смотреть на игрока
+public static function setName(int $id, string $name): void - Устанавливает имя NPC сверху
 ```
 
 <a id="skin"></a>

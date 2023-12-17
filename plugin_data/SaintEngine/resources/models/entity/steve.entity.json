@@ -1,0 +1,243 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.npc",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "NPC",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "legL",
+					"parent": "NPC",
+					"pivot": [2, 12, 0],
+					"cubes": [
+						{"origin": [0, 6, -2], "size": [4, 6, 4], "uv": [0, 16]},
+						{"origin": [-0.1, 5.9, -2.1], "size": [4.2, 6.2, 4.2], "uv": [0, 48]}
+					]
+				},
+				{
+					"name": "legL2",
+					"parent": "legL",
+					"pivot": [2, 6, 0],
+					"cubes": [
+						{
+							"origin": [0, 0, -2],
+							"size": [4, 6, 4],
+							"uv": {
+								"north": {"uv": [4, 26], "uv_size": [4, 6]},
+								"east": {"uv": [0, 26], "uv_size": [4, 6]},
+								"south": {"uv": [12, 26], "uv_size": [4, 6]},
+								"west": {"uv": [8, 26], "uv_size": [4, 6]},
+								"up": {"uv": [4, 16], "uv_size": [4, 4]},
+								"down": {"uv": [8, 20], "uv_size": [4, -4]}
+							}
+						},
+						{
+							"origin": [-0.1, -0.1, -2.1],
+							"size": [4.2, 6.2, 4.2],
+							"uv": {
+								"north": {"uv": [4, 58], "uv_size": [4, 6]},
+								"east": {"uv": [0, 58], "uv_size": [4, 6]},
+								"south": {"uv": [12, 58], "uv_size": [4, 6]},
+								"west": {"uv": [8, 58], "uv_size": [4, 6]},
+								"up": {"uv": [4, 54], "uv_size": [4, 4]},
+								"down": {"uv": [8, 58], "uv_size": [4, -4]}
+							}
+						}
+					]
+				},
+				{
+					"name": "legR",
+					"parent": "NPC",
+					"pivot": [-2, 12, 0],
+					"cubes": [
+						{"origin": [-4, 6, -2], "size": [4, 6, 4], "uv": [16, 48]},
+						{"origin": [-4.1, 5.9, -2.1], "size": [4.2, 6.2, 4.2], "uv": [0, 32]}
+					]
+				},
+				{
+					"name": "legR2",
+					"parent": "legR",
+					"pivot": [-2, 6, 0],
+					"cubes": [
+						{
+							"origin": [-4, 0, -2],
+							"size": [4, 6, 4],
+							"uv": {
+								"north": {"uv": [20, 58], "uv_size": [4, 6]},
+								"east": {"uv": [16, 58], "uv_size": [4, 6]},
+								"south": {"uv": [28, 58], "uv_size": [4, 6]},
+								"west": {"uv": [24, 58], "uv_size": [4, 6]},
+								"up": {"uv": [20, 48], "uv_size": [4, 4]},
+								"down": {"uv": [24, 52], "uv_size": [4, -4]}
+							}
+						},
+						{"origin": [-4.1, -0.1, -2.1], "size": [4.2, 6.2, 4.2], "uv": [0, 38]}
+					]
+				},
+				{
+					"name": "armR",
+					"parent": "NPC",
+					"pivot": [-4, 24, 0],
+					"cubes": [
+						{"origin": [-7.1, 17.9, -2.1], "size": [3.2, 6.2, 4.2], "uv": [48, 48]},
+						{
+							"origin": [-7, 18, -2],
+							"size": [3, 6, 4],
+							"uv": {
+								"north": {"uv": [44, 20], "uv_size": [3, 6]},
+								"east": {"uv": [40, 20], "uv_size": [4, 6]},
+								"south": {"uv": [51, 20], "uv_size": [3, 6]},
+								"west": {"uv": [47, 20], "uv_size": [4, 6]},
+								"up": {"uv": [44, 16], "uv_size": [3, 4]},
+								"down": {"uv": [47, 29], "uv_size": [3, -4]}
+							}
+						}
+					]
+				},
+				{
+					"name": "armR2",
+					"parent": "armR",
+					"pivot": [-5.5, 18, 0],
+					"cubes": [
+						{
+							"origin": [-7.1, 11.9, -2.1],
+							"size": [3.2, 6.2, 4.2],
+							"uv": {
+								"north": {"uv": [52, 58], "uv_size": [3, 6]},
+								"east": {"uv": [48, 58], "uv_size": [4, 6]},
+								"south": {"uv": [59, 58], "uv_size": [3, 6]},
+								"west": {"uv": [55, 58], "uv_size": [4, 6]},
+								"up": {"uv": [52, 55], "uv_size": [3, 4]},
+								"down": {"uv": [55, 59], "uv_size": [3, -4]}
+							}
+						},
+						{
+							"origin": [-7, 12, -2],
+							"size": [3, 6, 4],
+							"uv": {
+								"north": {"uv": [44, 26], "uv_size": [3, 6]},
+								"east": {"uv": [40, 26], "uv_size": [4, 6]},
+								"south": {"uv": [51, 26], "uv_size": [3, 6]},
+								"west": {"uv": [47, 26], "uv_size": [4, 6]},
+								"up": {"uv": [44, 22], "uv_size": [3, 4]},
+								"down": {"uv": [47, 20], "uv_size": [3, -4]}
+							}
+						}
+					]
+				},
+				{
+					"name": "armL",
+					"parent": "NPC",
+					"pivot": [4, 24, 0],
+					"cubes": [
+						{
+							"origin": [4, 18, -2],
+							"size": [3, 6, 4],
+							"uv": {
+								"north": {"uv": [36, 52], "uv_size": [3, 6]},
+								"east": {"uv": [32, 52], "uv_size": [4, 6]},
+								"south": {"uv": [43, 52], "uv_size": [3, 6]},
+								"west": {"uv": [39, 52], "uv_size": [4, 6]},
+								"up": {"uv": [36, 48], "uv_size": [3, 4]},
+								"down": {"uv": [39, 58], "uv_size": [3, -4]}
+							}
+						},
+						{"origin": [3.9, 17.9, -2.1], "size": [3.2, 6.2, 4.2], "uv": [40, 32]}
+					]
+				},
+				{
+					"name": "armL2",
+					"parent": "armL",
+					"pivot": [5.5, 18, 0],
+					"cubes": [
+						{
+							"origin": [4, 12, -2],
+							"size": [3, 6, 4],
+							"uv": {
+								"north": {"uv": [36, 58], "uv_size": [3, 6]},
+								"east": {"uv": [32, 58], "uv_size": [4, 6]},
+								"south": {"uv": [43, 58], "uv_size": [3, 6]},
+								"west": {"uv": [39, 58], "uv_size": [4, 6]},
+								"up": {"uv": [36, 54], "uv_size": [3, 4]},
+								"down": {"uv": [39, 52], "uv_size": [3, -4]}
+							}
+						},
+						{
+							"origin": [3.9, 11.9, -2.1],
+							"size": [3.2, 6.2, 4.2],
+							"uv": {
+								"north": {"uv": [44, 42], "uv_size": [3, 6]},
+								"east": {"uv": [40, 42], "uv_size": [4, 6]},
+								"south": {"uv": [51, 42], "uv_size": [3, 6]},
+								"west": {"uv": [47, 42], "uv_size": [4, 6]},
+								"up": {"uv": [44, 39], "uv_size": [3, 4]},
+								"down": {"uv": [47, 43], "uv_size": [3, -4]}
+							}
+						}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "NPC",
+					"pivot": [0, 24, 0],
+					"rotation": [0, -25, 0],
+					"cubes": [
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "uv": [0, 0]},
+						{"origin": [-4.3, 23.8, -4.3], "size": [8.6, 8.6, 8.6], "uv": [32, 0]}
+					]
+				},
+				{
+					"name": "eyes",
+					"parent": "head",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [1, 27, -4.1], "size": [2, 2, 2], "uv": [53, 39], "mirror": true},
+						{"origin": [-3, 27, -4.1], "size": [2, 2, 2], "uv": [53, 39]}
+					]
+				},
+				{
+					"name": "brows",
+					"parent": "head",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-3, 29, -4.1], "size": [2, 2, 2], "uv": [1, 39]}
+					]
+				},
+				{
+					"name": "brows2",
+					"parent": "brows",
+					"pivot": [4, 24, 0],
+					"cubes": [
+						{"origin": [1, 29, -4.1], "size": [2, 2, 2], "uv": [1, 39]}
+					]
+				},
+				{
+					"name": "body",
+					"parent": "NPC",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-4, 15, -2], "size": [8, 9, 4], "uv": [16, 16]}
+					]
+				},
+				{
+					"name": "body2",
+					"parent": "body",
+					"pivot": [0, 9, 0],
+					"cubes": [
+						{"origin": [-4, 12, -2], "size": [8, 3, 4], "uv": [16, 25]}
+					]
+				}
+			]
+		}
+	]
+}
